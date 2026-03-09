@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   const navItems = ['Home', 'Features', 'Community', 'About'];
 
   return (
-    <nav className="bg-[#001F3FF2] text-white px-6 md:px-18 py-2 relative">
+    <nav className="bg-[#001F3FF2] sticky top-0 z-50  text-white px-6 md:px-18 py-2 relative">
       <div className=" flex items-center justify-between">
         
         {/* Logo Section */}
