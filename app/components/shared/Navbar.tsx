@@ -8,7 +8,7 @@ import logo from '/public/img/logo.png'
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
-  const navItems = ['Home', 'Features', 'Community', 'About'];
+  const navItems = ['Home', 'Features', 'Community', 'About','Blog','Pricing','Shop'];
 
   return (
     <nav className="bg-[#001F3FF2] sticky top-0 z-50  text-white px-6 md:px-18 py-2 relative">
