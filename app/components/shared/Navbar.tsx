@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 // You can use lucide-react or any icon library
 import { Menu, X } from 'lucide-react';
-import logo from '/public/img/logo.png'
+
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         {/* Logo Section */}
         <div className="flex items-center gap-2">
           
-        <img src="/img/logo.png" alt="" />
+        <img src="/img/logo.svg" alt="" />
         </div>
 
         {/* Desktop Navigation */}
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
-          <button className="bg-gradient-to-b from-[#C9A96E] to-[#57431F] px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+          <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
             Join the Waitlist
           </button>
         </div>
@@ -54,14 +54,14 @@ const Navbar: React.FC = () => {
             {navItems.map((item) => (
               <li 
                 key={item} 
-                className="text-lg font-medium hover:text-amber-400"
+                className="text-lg font-medium font-lora hover:text-amber-400"
                 onClick={() => setIsOpen(false)}
               >
                 {item}
               </li>
             ))}
             <li>
-              <button className="w-full bg-gradient-to-b from-[#C9A96E] to-[#57431F]  py-4  rounded-md font-bold">
+              <button className="w-full font-lora bg-gradient-to-b from-[#C9A96E] to-[#57431F]  py-4  rounded-md font-bold">
                 Join the Waitlist
               </button>
             </li>

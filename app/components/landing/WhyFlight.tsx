@@ -26,11 +26,11 @@ const WhyFight: React.FC = () => {
 
         {/* Content Section */}
         <div className="w-full lg:w-1/2 flex flex-col items-start text-left">
-          <h2 className="text-[#001F3F] text-4xl md:text-5xl font-bold mb-8 leading-tight md:leading-12">
+          <h2 className="text-[#001F3F] text-4xl md:text-5xl font-bold mb-8 font-lora leading-tight md:leading-12">
             Why Fight the Number?
           </h2>
           
-          <div className="space-y-6 text-[#374151] text-base md:text-lg font-normal leading-relaxed max-w-xl">
+          <div className="space-y-6 text-[#374151] text-base md:text-lg font-lora font-normal leading-relaxed max-w-xl">
             <p>
               Current femtech tracks and reports—but we fight back. Our 
               hyper-personalized tool covers hormonal health, fertility, pelvic 
@@ -44,7 +44,7 @@ const WhyFight: React.FC = () => {
             </p>
           </div>
 
-          <button className="mt-10 px-10 py-4 rounded-md font-bold text-white shadow-xl transition-all
+          <button className="mt-10 px-10 py-4 rounded-md font-lora font-bold text-white shadow-xl transition-all
             bg-gradient-to-b from-[#C9A96E] to-[#57431F] hover:brightness-110 active:scale-95 cursor-pointer">
             Start Your Fight
           </button>

@@ -48,10 +48,10 @@ const EmpoweringFeatures: React.FC = () => {
       <div>
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-[#001F3F] text-4xl md:text-5xl lg:text-[64px] font-serif font-bold mb-6">
+          <h2 className="text-[#001F3F] text-4xl md:text-5xl lg:text-[64px] font-lora font-bold mb-6">
             Empowering Features
           </h2>
-          <p className="text-[#6B7280] text-lg md:text-xl font-normal">
+          <p className="text-[#6B7280] text-lg md:text-xl font-lora font-normal">
             Everything you need to take control of your health journey
           </p>
         </div>
@@ -61,13 +61,13 @@ const EmpoweringFeatures: React.FC = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className={`relative group h-[400px] overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:-translate-y-2 ${
+              className={`relative group h-[400px] font-lora overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:-translate-y-2 ${
                 index === 4 ? 'lg:col-start-2' : index === 5 ? 'lg:col-start-3' : ''
               }`}
             >
               {/* Card Image */}
               <div
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                className="absolute inset-0 bg-cover font-lora bg-center transition-transform duration-500 group-hover:scale-110"
                 style={{ backgroundImage: `url(${feature.image})` }}
               >
                 {/* Dark Overlay */}
@@ -75,11 +75,11 @@ const EmpoweringFeatures: React.FC = () => {
               </div>
 
               {/* Text Content Area */}
-              <div className="absolute bottom-0 left-0 w-full p-6 border-t border-white/10 min-h-[140px]">
-                <h3 className="text-[#F8F1E9] font-serif font-bold text-lg md:text-xl mb-2">
+              <div className="absolute bottom-0 left-0  w-full p-6 border-t border-white/10 min-h-[140px]">
+                <h3 className="text-[#F8F1E9] font-lora font-lora font-bold text-lg md:text-xl mb-2">
                   {feature.title}
                 </h3>
-                <p className="text-[#F8F1E9] text-sm font-normal opacity-90">
+                <p className="text-[#F8F1E9] text-sm font-lora font-normal opacity-90">
                   {feature.description}
                 </p>
               </div>

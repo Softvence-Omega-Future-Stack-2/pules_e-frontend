@@ -1,3 +1,9 @@
+import UsersTable from "@/app/components/dashboard/users/UserTable";
+
 export default function UsersPage() {
-  return <h1 className="text-xl font-bold">Users Page</h1>;
+  return (
+    <div className="mt-6">
+      <UsersTable/>
+    </div>
+  );
 }

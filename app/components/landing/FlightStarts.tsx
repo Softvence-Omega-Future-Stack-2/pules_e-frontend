@@ -50,21 +50,21 @@ const FlightStarts: React.FC = () => {
 
       {/* Content Container */}
       <div className="relative z-10 max-w-4xl w-full text-center text-white">
-        <h2 className="text-4xl md:text-6xl font-bold leading-6 md:leading-[4rem] mb-4">
+        <h2 className="text-4xl md:text-6xl font-lora font-bold leading-6 md:leading-[4rem] mb-4">
           Your Fight Starts Here.
         </h2>
 
-        <p className="text-secondaryColor text-xl md:text-2xl font-semibold leading-5 mb-8">
+        <p className="text-secondaryColor text-xl font-lora md:text-2xl font-semibold leading-5 mb-8">
           Don't Let Another Cycle Pass You By.
         </p>
 
-        <p className="max-w-2xl mx-auto text-[#CAD5E2] text-base md:text-lg font-normal leading-relaxed mb-12">
+        <p className="max-w-2xl mx-auto text-[#CAD5E2] font-lora text-base md:text-lg font-normal leading-relaxed mb-12">
           The app is in active development—powered by Numera's cutting-edge AI coaching, built with real women's input. This is more than an app. This is your declaration of sovereignty.
         </p>
 
         {/* Glassmorphism Card */}
         <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl max-w-[840px] p-8 md:p-12 shadow-2xl mx-auto">
-          <h3 className="text-xl md:text-2xl font-medium leading-7 mb-6">Join the waitlist and secure:</h3>
+          <h3 className="text-xl md:text-2xl font-medium font-lora leading-7 mb-6">Join the waitlist and secure:</h3>
 
           <ul className="flex flex-col items-start gap-4 mb-10">
             {benefits.map((benefit, index) => (
@@ -82,13 +82,13 @@ const FlightStarts: React.FC = () => {
               placeholder="Your email address"
               className="w-full md:flex-1 px-6 py-3.5 rounded-md bg-white text-gray-900 border border-borderColor focus:outline-none placeholder:text-gray-400"
             />
-            <button className="w-full md:w-auto px-10 py-4 rounded-lg font-bold text-white transition-all bg-gradient-to-b from-[#C9A96E] to-[#57431F] hover:brightness-110 active:scale-95 cursor-pointer">
+            <button className="w-full font-lora md:w-auto px-10 py-4 rounded-lg font-bold text-white transition-all bg-gradient-to-b from-[#C9A96E] to-[#57431F] hover:brightness-110 active:scale-95 cursor-pointer">
               Secure Your Spot
             </button>
           </div>
         </div>
 
-        <p className="mt-12 text-sm font-normal text-white leading-5">
+        <p className="mt-12 text-sm  font-lora font-normal text-white leading-5">
           Made with grit, empathy, and zero BS. Launching 2026.
         </p>
       </div>
