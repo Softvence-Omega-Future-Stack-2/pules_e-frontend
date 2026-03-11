@@ -16,10 +16,10 @@ const MetricCard: React.FC<MetricCardProps> = ({ title, description, icon }) => 
       {icon}
     </div>
 
-    <h3 className="text-primaryColor font-bold text-2xl md:text-3xl mb-6">
+    <h3 className="text-primaryColor font-lora font-bold text-2xl md:text-3xl mb-6">
       {title}
     </h3>
-    <p className="text-[#6B7280] text-xl md:text-2xl font-normal leading-relaxed">
+    <p className="text-[#6B7280] text-xl font-lora md:text-2xl font-normal leading-relaxed">
       {description}
     </p>
   </div>
@@ -143,10 +143,10 @@ const BeyondTheScale: React.FC = () => {
       <div className="max-w-[1287px] mx-auto">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <h2 className="text-[#001F3F] text-4xl md:text-5xl lg:text-[64px] font-serif font-bold mb-6">
+          <h2 className="text-[#001F3F] text-4xl md:text-5xl lg:text-[64px] font-lora font-bold mb-6">
             Beyond the Scale
           </h2>
-          <p className="text-[#6B7280] text-lg md:text-xl font-normal px-3 md:px-10 leading-5">
+          <p className="text-[#6B7280] font-lora text-lg md:text-xl font-normal px-3 md:px-10 leading-5">
             "We measure what truly matters. Your victories are not found in numbers—they're felt in your bones, seen in your stride, heard in the quiet affirmations you whisper to yourself."
           </p>
         </div>
@@ -160,10 +160,10 @@ const BeyondTheScale: React.FC = () => {
 
         {/* Quote Footer */}
         <div className="mt-16 text-center">
-          <p className="text-[#0a192f] text-lg md:text-2xl font-normal font-serif italic max-w-3xl mx-auto leading-relaxed md:leading-10">
+          <p className="text-[#0a192f] text-lg md:text-2xl font-lora font-normal font-lora italic max-w-3xl mx-auto leading-relaxed md:leading-10">
             "I no longer allow one number to silence my strength. I have chosen to fight for how alive I feel, not how I weigh."
           </p>
-          <span className="block mt-4 text-secondaryColor text-base md:text-lg font-bold leading-7">
+          <span className="block mt-4 text-secondaryColor font-lora text-base md:text-lg font-bold leading-7">
             — This could be you
           </span>
         </div>

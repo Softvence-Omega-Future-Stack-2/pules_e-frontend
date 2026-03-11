@@ -32,10 +32,10 @@ const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-[#001F3F] text-4xl md:text-5xl font-bold mb-6 leading-tight md:leading-12">
+          <h2 className="text-[#001F3F] font-lora text-4xl md:text-5xl font-bold mb-6 leading-tight md:leading-12">
             What Women Are Already Saying
           </h2>
-          <p className="text-[#6B7280] text-lg md:text-xl font-normal px-3 md:px-10 leading-5">
+          <p className="text-[#6B7280] font-lora text-lg md:text-xl font-normal px-3 md:px-10 leading-5">
             These are the private affirmations we live for. This is the revolution.
           </p>
         </div>
@@ -64,8 +64,8 @@ const Testimonials: React.FC = () => {
 
               {/* Author Info */}
               <div className="pt-6 border-t border-[#E2E8F0]">
-                <h4 className="text-[#0F172B] font-normal text-base leading-6">{t.author}</h4>
-                <p className="text-[#62748E] text-sm font-normal leading-5 mt-1">{t.role}</p>
+                <h4 className="text-[#0F172B] font-normal text-base font-lora leading-6">{t.author}</h4>
+                <p className="text-[#62748E] text-sm font-normal font-lora leading-5 mt-1">{t.role}</p>
               </div>
             </div>
           ))}

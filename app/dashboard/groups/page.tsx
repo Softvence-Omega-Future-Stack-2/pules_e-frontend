@@ -1,3 +1,9 @@
+import GroupCard from "@/app/components/dashboard/groups/GroupsCard";
+
 export default function Groupspage() {
-  return <h1 className="text-xl font-bold">Groups Page</h1>;
+  return (
+  <div>
+    <GroupCard/>
+  </div>
+  )
 }

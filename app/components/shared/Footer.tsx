@@ -17,16 +17,16 @@ const Footer: React.FC = () => {
               
              <img src="/img/logo.png" alt="" />
             </div>
-            <p className="text-[#EDE4D9] text-sm md:text-base font-normal leading-relaxed mb-4 text-left">
+            <p className="text-[#EDE4D9] text-sm font-lora md:text-base font-normal leading-relaxed mb-4 text-left">
               Empowering women through AI-powered  health coaching and community support.
             </p>
-            <p className="text-[#C9A96E] text-sm italic font-semibold leading-6">
+            <p className="text-[#C9A96E] font-lora text-sm italic font-semibold leading-6">
               "Reclaim Your Power — Beyond the Number"
             </p>
           </div>
 
           {/* Quick Links */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col font-lora items-start">
             <h4 className="text-[#C9A96E] font-normal text-base md:text-lg leadiing-6 mb-6">Quick Links</h4>
             <ul className="space-y-4 text-sm md:text-base text-[#EDE4D9] leading-6 text-left">
               <li className="hover:text-amber-400 cursor-pointer transition-colors">Home</li>
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Contact */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col font-lora items-start">
             <h4 className="text-[#C9A96E] font-semibold text-base md:text-lg leading-6 mb-6">Contact</h4>
             <p className="text-sm md:text-base font-normal text-[#EDE4D9] leading-4 hover:text-amber-400 cursor-pointer">
               privacy@fightthenumber.com
@@ -50,10 +50,10 @@ const Footer: React.FC = () => {
 
         {/* Copyright & Policy Links */}
         <div className="text-center mb-10">
-          <p className="text-sm font-normal leading-5 text-[#EDE4D9] mb-4">
+          <p className="text-sm font-normal font-lora leading-5 text-[#EDE4D9] mb-4">
             © 2026 Fight the Number. All rights reserved.
           </p>
-          <div className="flex justify-center gap-6 text-base font-medium ">
+          <div className="flex justify-center gap-6 text-base font-lora font-medium ">
             <span className="cursor-pointer text-[#EDE4D9] hover:text-amber-400">Privacy Policy</span>
             <span className="text-gray-700">|</span>
             <span className="cursor-pointer text-[#EDE4D9] hover:text-amber-400">Terms of Use</span>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Privacy Policy Card - Aligned with the content above */}
-        <div className="bg-[#162a4a]/40 backdrop-blur-md border border-white/10 rounded-2xl p-3 md:p-6 text-left">
+        <div className="bg-[#162a4a]/40 backdrop-blur-md border border-white/10 font-lora rounded-2xl p-3 md:p-6 text-left">
           <h3 className="text-[#C9A96E]  font-bold text-lg leading-7 mb-4">Privacy Policy</h3>
           <p className="text-[#EDE4D9] text-sm leading-5 font-normal mb-4 ">Effective Date: February 24, 2026</p>
           
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
             <p><strong className="text-[#C9A96E]"> Your Rights:</strong>  You can unsubscribe or request data deletion anytime. Contact: privacy@fightthenumber.com</p>
             <p><strong className="text-[#C9A96E]">Changes:</strong>   We may update this policy; check back periodically.</p>
           </div>
-           <p className='text-sm font-normal leading-5 text-[#EDE4D9]'>By joining, you consent to this policy.</p>
+           <p className='text-sm font-normal font-lora leading-5 text-[#EDE4D9]'>By joining, you consent to this policy.</p>
         </div>
       </div>
 
