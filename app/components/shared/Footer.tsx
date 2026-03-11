@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-start">
             <div className="flex items-center gap-2 mb-6">
               
-             <img src="/img/logo.png" alt="" />
+             <img src="/img/logo.svg" alt="" />
             </div>
             <p className="text-[#EDE4D9] text-sm font-lora md:text-base font-normal leading-relaxed mb-4 text-left">
               Empowering women through AI-powered  health coaching and community support.

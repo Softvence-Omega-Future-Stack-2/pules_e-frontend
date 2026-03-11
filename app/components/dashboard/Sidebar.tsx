@@ -53,7 +53,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
         </button>
 
         {/* Logo */}
-        <div className="p-8 mb-4 flex justify-center  ">
+        <div className="p-8  flex justify-center  ">
           <img src="/img/logo.svg" alt="logo" />
         </div>
 

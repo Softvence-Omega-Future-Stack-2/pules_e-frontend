@@ -1,7 +1,8 @@
 "use client";
 
-import React from 'react';
-import { User, Heart, Activity, Ban, MapPin, Calendar, Mail, MessageSquare, MessageCircle, Eye } from 'lucide-react';
+
+import {  Heart,  MessageSquare, MessageCircle, Eye } from 'lucide-react';
+import ActivityChart from '@/app/components/dashboard/groups/ActivityOverview';
 
 const GroupDetailsPage = () => {
 
@@ -60,12 +61,12 @@ const GroupDetailsPage = () => {
   </div>
 </div>
 
- <main className=" px-6  space-y-8">
+ <main className=" p-2 md:px-6  space-y-4 md:space-y-8">
 {/* --- Section 1: About This Group --- */}
         <section className="bg-[#F8F1E9CC] rounded-2xl p-4 md:p-8 border border-[#C9A96E4D] ">
           <div className="flex items-center gap-2 mb-8 pb-4">
             <MessageSquare size={20} className="text-[#B89463]" />
-            <h2 className="text-lg font-bold leading-7 text-primaryColor leading-5">About This Group</h2>
+            <h2 className="text-lg font-bold leading-7 text-primaryColor ">About This Group</h2>
           </div>
 
           <div className="space-y-6">
@@ -134,6 +135,10 @@ const GroupDetailsPage = () => {
               </div>
             ))}
           </div>
+        </section>
+
+        <section>
+          <ActivityChart/>
         </section>
 
 </main>
