@@ -87,7 +87,7 @@ const PowerfullFeatures = () => {
             </div>
           ))}
         </div>
-
+        
       </div>
     </div>
   );
