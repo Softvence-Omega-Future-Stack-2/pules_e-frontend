@@ -14,7 +14,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
       {/* Main content */}
       <div className="flex-1 flex flex-col bg-[#001F3F] p-4">
-        <div className="bg-[#F8F1E9] p-5 rounded-3xl">
+        <div className="bg-[#F8F1E9] p-3 md:p-5 rounded-3xl">
         <DashboardHeader onMenuClick={() => setSidebarOpen(true)}/>
         <main className="">{children}</main>
         </div>

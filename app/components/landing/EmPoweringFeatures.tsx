@@ -12,33 +12,43 @@ interface FeatureCard {
 const features: FeatureCard[] = [
   {
     title: "Meet Numera: Your AI Coach",
-    description: "Numera translates raw data into compassionate, stage-specific fight plans. Not just 'drink more water'—culturally aware, actionable steps tailored to you.",
+    description: "Your compassionate AI companion translates raw data into actionable, culturally aware insights. Numera doesn't just tell you to 'drink more water'—she understands your luteal phase fatigue and offers real support.",
     image: '/img/feature1.svg'
   },
   {
-    title: "Reframing the Fight",
-    description: "'Fight the Number' with 'Fight Sister' tone: Your numbers don't define you—we fight them together, turning anxiety into empowerment.",
+    title: "Non-Scale Victories",
+    description: "Energy levels, mood stability, confidence boosts—these are the wins that matter. Track what truly reflects your wellness, not just weight.",
     image: '/img/feature2.svg'
   },
   {
-    title: "Life-Stage Companions",
-    description: "Dedicated Fight Sisters for fertility, menopause, pelvic floor, and more. Tailored tones, visuals, and tools for every chapter of your life.",
+    title: "Fight Sister Community",
+    description: "Join private circles for your life stage—fertility, perimenopause, pelvic floor recovery. Accountability matching and local resource finders included.",
     image: '/img/feature3.svg'
   },
   {
-    title: "Mental + Hormonal Harmony",
-    description: "Link mood crashes to cycle shifts and tackle both with integrated support.",
+    title: "Mental Health Integration",
+    description: "Link mood crashes to cycle shifts. Tackle hormonal and mental health together with integrated tracking and support.",
     image: '/img/feature4.svg'
   },
   {
-    title: "Sisterhood Community",
-    description: "Accountability matching, private groups, and local resource finders to build your network of Fight Sisters.",
+    title: "BBT Tracker",
+    description: "Track your basal body temperature to understand your cycle phases. Numera helps you see patterns and anticipate hormonal shifts before they happen.",
+    image: '/img/feature7.svg'
+  },
+  {
+    title: "Phase Challenges",
+    description: "Get phase-specific challenges that work WITH your cycle. Strength training in follicular, gentle movement in luteal—your body knows best.",
     image: '/img/feature5.svg'
   },
   {
-    title: "Non-Scale Victories",
-    description: "Track energy, mood stability, confidence—not just cycles or outcomes. Celebrate every win.",
+    title: "Geo-Recommendations",
+    description: "Find cycle-friendly gyms, therapists, and wellness providers in your area. Real recommendations from real Fight Sisters.",
     image: '/img/feature6.svg'
+  },
+  {
+    title: "Mobile-First Experience",
+    description: "Track on-the-go with our mobile app. BBT logging at bedside, quick win entries, and Numera conversations wherever you are.",
+    image: '/img/feature8.svg'
   }
 ];
 
@@ -62,7 +72,7 @@ const EmpoweringFeatures: React.FC = () => {
             <div
               key={index}
               className={`relative group h-[400px] font-lora overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:-translate-y-2 ${
-                index === 4 ? 'lg:col-start-2' : index === 5 ? 'lg:col-start-3' : ''
+                index === 4 ? 'lg:col-start-1' : index === 5 ? 'lg:col-start-2' : ''
               }`}
             >
               {/* Card Image */}

@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
       {/* Content Container */}
       <div className="relative z-10 max-w-[1550px] px-6 text-center text-white">
         <h1 className="text-4xl md:text-6xl lg:text-[90px] font-lora  font-bold leading-tight lg:leading-[90px] mb-6">
-          Fight the Number: Your AI-Powered Guide in the Battle for Women's Health
+          Fight the Number: Your <span className='text-secondaryColor'>AI-Powered Guide</span> in the Battle for Women's Health
         </h1>
         
         <p className="text-secondaryColor text-xl md:text-2xl font-lora font-semibold leading-6 md:leading-8 mb-6  ">
@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
 
         <p className=" font-lora text-xl md:text-2xl text-[#FFFFFFE5] font-normal px-10 leading-6 mb-8 opacity-90">
           Tired of the scale, the cycle charts, and the metrics dictating your worth? 
-          Numera, your AI companion, fights back—with unwavering empathy, cycle-aware insights, 
+          Numera, your <span className='font-bold'>AI companion</span>, fights back—with unwavering empathy, cycle-aware insights, 
           and shame-free guidance that honors exactly where your energy stands today.
         </p>
 
