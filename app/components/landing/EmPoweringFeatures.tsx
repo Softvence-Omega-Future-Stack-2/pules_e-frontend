@@ -8,7 +8,7 @@ interface FeatureCard {
   image: string;
 }
 
-// Move all SVGs to /public/img/ folder and reference them with string paths
+
 const features: FeatureCard[] = [
   {
     title: "Meet Numera: Your AI Coach",
