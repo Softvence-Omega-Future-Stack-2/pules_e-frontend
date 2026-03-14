@@ -43,7 +43,7 @@ const FlightStarts: React.FC = () => {
       {/* Background Image with Gradient Overlay */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/path-to-your-beach-warrior-img.jpg')" }}
+        style={{ backgroundImage: "url('/img/allBaner.svg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-[#0f172bf2] via-[#0f172be6] to-[#7b3306e6]" />
       </div>
