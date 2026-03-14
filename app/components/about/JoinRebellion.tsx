@@ -2,11 +2,11 @@
 
 const JoinRebellion = () => {
   return (
-      <section className="relative min-h-[60vh] w-full flex items-center justify-center py-20 px-6 overflow-hidden">
+      <section className="relative min-h-[60vh] w-full border-b-2 border-secondaryColor flex items-center justify-center py-20 px-6 overflow-hidden">
          {/* Background Image with Gradient Overlay */}
          <div
            className="absolute inset-0 z-0 bg-cover bg-center"
-           style={{ backgroundImage: "url('/path-to-your-beach-warrior-img.jpg')" }}
+           style={{ backgroundImage: "url('/img/allBaner.svg')" }}
          >
            <div className="absolute inset-0 bg-gradient-to-br from-[#0f172bf2] via-[#0f172be6] to-[#7b3306e6]" />
          </div>
