@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
           Reclaim Your Vitality, Movement & Body Wisdom.
         </p>
 
-        <p className=" font-lora text-xl md:text-2xl text-[#FFFFFFE5] font-normal px-10 leading-6 mb-8 opacity-90">
+        <p className=" font-lora text-xl md:text-2xl text-[#FFFFFFE5] font-normal px-10 leading-6 md:leading-9 mb-8 opacity-90">
          Fight the scale, the aging milestones, and the fitness metrics dictating your worth. Numera, your <span className='font-bold'>AI companion</span>, fights back—with cycle-aware insights, vitality tracking, and empowered movement guidance that honors your body's rhythm at every age.
         </p>
 
