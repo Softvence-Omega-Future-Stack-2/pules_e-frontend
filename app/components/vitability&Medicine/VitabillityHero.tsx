@@ -24,7 +24,7 @@ const VitabilityHero: React.FC = () => {
        Fight Aging Numbers with Functional Vitality
         </p>
 
-      <p className='text-lg md:text-xl font-normal text-[#FFFFFFCC] leading-6 max-w-5xl mx-auto'>Refuse to let age milestones, energy dips, or hormonal shifts define you. Track vitality wins—not wrinkles. Build strength—not shame. Reclaim your body's wisdom at every age.</p>
+      <p className='text-lg md:text-xl font-normal text-[#FFFFFFCC] leading-6  md:leading-9 max-w-5xl mx-auto'>Refuse to let age milestones, energy dips, or hormonal shifts define you. Track vitality wins—not wrinkles. Build strength—not shame. Reclaim your body's wisdom at every age.</p>
 
       </div>
     </section>

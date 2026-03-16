@@ -71,7 +71,7 @@ export default function CycleSyncedMovement() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-10">
-          <h2 className="text-white text-4xl md:text-5xl  font-bold  leading-6 md:leading-18 mb-6">
+          <h2 className="text-primaryColor text-4xl md:text-5xl  font-bold  leading-6 md:leading-18 mb-6">
             Cycle-Synced Movement Recommendations
           </h2>
           <p className="text-lg sm:text-xl text-[#6B7280] max-w-xl font-normal mx-auto leading-relaxed">
