@@ -33,10 +33,7 @@ const OurStory = () => {
             <div key={idx} className="relative pl-8 md:pl-12 group">
             
        {/* Vertical Accent Line */}
-<div 
-  className="absolute left-0 top-0 bottom-0 w-[3.5px] bg-[#C9A96E]"
-  style={{ borderRadius: '4px' }}
-/>
+<div className="absolute left-0 top-0 bottom-0 w-[3.5px] bg-[#C9A96E] rounded-[12px]" />
               
               <div className="space-y-4">
                 <h3 className="text-primaryColor leading-7 md:leading-11 text-2xl md:text-3xl font-lora font-bold mb-4">
