@@ -21,7 +21,7 @@ const BlogHero = () => {
               Understanding BBT for Cycle Awareness
             </h2>
 
-            <p className="text-[#FFFFFFCC] text-lg md:text-xl font-normal leading-relaxed max-w-xl">
+            <p className="text-[#FFFFFFCC] text-lg md:text-xl font-normal leading-relaxed  md:leading-9 max-w-xl">
               Learn how basal body temperature tracking can help you understand your hormonal patterns and anticipate cycle shifts.
             </p>
 
@@ -39,7 +39,7 @@ const BlogHero = () => {
 
             {/* Premium Gold Button */}
             <div className="">
-              <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+              <button className="bg-gradient-to-b font-lora text-white from-[#C9A96E] to-[#57431F] px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
                 Read Article
               </button>
             </div>

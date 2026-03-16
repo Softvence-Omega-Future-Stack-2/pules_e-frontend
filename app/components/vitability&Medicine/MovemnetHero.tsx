@@ -24,7 +24,7 @@ const MovementHero: React.FC = () => {
        Empowered Fitness for Every Phase of Your Cycle
         </p>
 
-      <p className='text-lg md:text-xl font-normal text-[#FFFFFFCC] leading-6 max-w-5xl mx-auto'>
+      <p className='text-lg md:text-xl font-normal text-[#FFFFFFCC] leading-6  md:leading-9 max-w-5xl mx-auto'>
        Refuse to let fitness plateaus or calorie counts define you. Build strength your body actually wants—not what "should" work. Honor your cycle, defy aging myths, and celebrate movement wins beyond the scale.
         </p>
 

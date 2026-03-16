@@ -3,9 +3,9 @@ import CategoriesFilter from "../components/blog/Categories";
 
 
 
-export default function AboutPage() {
+export default function BlogPage() {
   return (
-    <div className="bg-[#F8F1E9] py-12">
+    <div className="bg-[#F8F1E9] pb-12">
     <BlogHero/>
     <CategoriesFilter/>
     </div>
