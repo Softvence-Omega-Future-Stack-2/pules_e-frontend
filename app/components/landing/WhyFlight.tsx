@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+
+import { Link } from "lucide-react";
 
 
 const WhyFight: React.FC = () => {
@@ -43,11 +44,13 @@ const WhyFight: React.FC = () => {
               anxiety into empowerment and data into action.
             </p>
           </div>
-
+         
+          <Link href="/waitlist">
           <button className="mt-10 px-10 py-4 rounded-md font-lora font-bold text-white shadow-xl transition-all
             bg-gradient-to-b from-[#C9A96E] to-[#57431F] hover:brightness-110 active:scale-95 cursor-pointer">
             Start Your Fight
           </button>
+          </Link>
         </div>
 
       </div>

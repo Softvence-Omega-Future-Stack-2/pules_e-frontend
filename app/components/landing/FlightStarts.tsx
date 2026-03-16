@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 export const CheckCircleIcon: React.FC = () => {
@@ -82,9 +83,11 @@ const FlightStarts: React.FC = () => {
               placeholder="Your email address"
               className="w-full md:flex-1 px-6 py-3.5 rounded-md bg-white text-gray-900 border border-borderColor focus:outline-none placeholder:text-gray-400"
             />
+             <Link href="/waitlist">
             <button className="w-full font-lora md:w-auto px-10 py-4 rounded-lg font-bold text-white transition-all bg-gradient-to-b from-[#C9A96E] to-[#57431F] hover:brightness-110 active:scale-95 cursor-pointer">
               Secure Your Spot
             </button>
+            </Link>
           </div>
         </div>
 

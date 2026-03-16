@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   const pathname = usePathname();
   const [featureOpen, setFeatureOpen] = useState(false);
 
-  // ✅ Fix 1: ref শুধু features dropdown এর container এ attach করো
+
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const navItems = [
@@ -34,13 +34,11 @@ const Navbar: React.FC = () => {
     { name: 'Support', href: '/support' },
   ];
 
-  // ✅ Show active child name in dropdown button
   const getActiveChildName = (children: { name: string; href: string }[]) => {
     const activeChild = children.find((child) => pathname === child.href);
     return activeChild ? activeChild.name : null;
   };
 
-  // ✅ Fix 2: outside click — শুধু featureOpen থাকলে close করো
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -54,7 +52,7 @@ const Navbar: React.FC = () => {
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [featureOpen]); // ✅ featureOpen dependency add করো
+  }, [featureOpen]);
 
   useEffect(() => {
     if (pathname !== '/') return;
@@ -86,7 +84,7 @@ const Navbar: React.FC = () => {
     if (href.startsWith('#')) {
       return pathname === '/' && activeHash === href;
     }
-    // ✅ Parent with children: active if pathname starts with href (covers /features, /features/vitality etc.)
+ 
     if (hasChildren) {
       return pathname === href || pathname.startsWith(href + '/');
     }
@@ -170,10 +168,17 @@ const Navbar: React.FC = () => {
         </ul>
 
         {/* Desktop CTA */}
-        <div className="hidden lg:block">
-          <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+        <div className="hidden lg:block lg:flex gap-4">
+           <Link href="/waitlist">
+          <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-2 xl:px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
             Join the Waitlist
           </button>
+          </Link>
+           <Link href="/login">
+          <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-2 xl:px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+            Login
+          </button>
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -202,7 +207,7 @@ const Navbar: React.FC = () => {
                           ? 'text-amber-400 underline underline-offset-4 decoration-2'
                           : 'text-[#F8F1E9]'
                       }`}>
-                        {/* ✅ Mobile তেও active child নাম দেখাও */}
+                        
                         {getActiveChildName(item.children) ?? item.name}
                       </span>
                       <ChevronDown
@@ -250,9 +255,18 @@ const Navbar: React.FC = () => {
             ))}
 
             <li>
+               <Link href="/waitlist">
               <button className="w-full font-lora bg-gradient-to-b from-[#C9A96E] to-[#57431F] py-4 rounded-md font-bold">
                 Join the Waitlist
               </button>
+              </Link>
+            </li>
+            <li>
+               <Link href="/login">
+              <button className="w-full font-lora bg-gradient-to-b from-[#C9A96E] to-[#57431F] py-4 rounded-md font-bold">
+                Login
+              </button>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,5 +1,6 @@
 
 "use client"
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -36,10 +37,12 @@ const HeroSection: React.FC = () => {
             placeholder="Your email address"
             className="w-full md:flex-1 px-6 py-4 rounded-md bg-white text-gray-900  border border-borderColor focus:outline-none placeholder:text-gray-400"
           />
+           <Link href="/waitlist">
           <button className="w-full md:w-auto  font-lora rounded-md font-bold text-white transition-all 
            bg-gradient-to-b from-[#C9A96E] to-[#57431F] px-8 py-4 hover:brightness-110 shadow-lg active:scale-95 whitespace-nowrap cursor-pointer">
             Join the Waitlist
           </button>
+          </Link>
         </div>
 
         <p className="mt-8 text-sm font-lora text-white font-normal leading-5 ">

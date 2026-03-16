@@ -3,6 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Search, Bell, Menu, Check, CheckCheck, X } from "lucide-react";
+import Link from "next/link";
 
 interface DashboardHeaderProps {
   onMenuClick: () => void;
@@ -276,13 +277,16 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({ onMenuClick }) => {
 
         {/* Profile */}
         <div className="flex items-center gap-3">
+          <Link href="/dashboard/profile">
           <div className="h-12 w-12 rounded-full overflow-hidden border-2 border-white shadow-md">
             <img
               src="/img/profileImg.png"
               alt="User"
               className="h-full w-full object-cover"
             />
+            
           </div>
+          </Link>
         </div>
       </div>
     </header>
