@@ -11,7 +11,7 @@ import { AddEditModal, Companion } from "./AddEditModal";
 const initialCompanions: Companion[] = [
   { id: 1, title: "Fertility Fight Sister", category: "Fertility", description: "Supporting your journey to motherhood with tracking, insights, and encouragement.", image: "/img/contentImg1.svg", status: "Published" },
   { id: 2, title: "Menopause Fight Sister", category: "Menopause", description: "Navigate this transition with confidence, tracking tools, and community support.", image: "/img/contentImg2.svg", status: "Published" },
-  { id: 3, title: "Wellness Fight Sister", category: "Wellness", description: "Empowering your daily health journey with personalized guidance and motivation.", image: "/img/companion3.png", status: "Published" },
+  { id: 3, title: "Wellness Fight Sister", category: "Wellness", description: "Empowering your daily health journey with personalized guidance and motivation.", image: "/img/containerImg3.png", status: "Published" },
 ];
 
 const categoryColors: Record<Companion["category"], string> = {
