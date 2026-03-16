@@ -87,13 +87,13 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
         </nav>
 
         {/* Bottom */}
-        <div className="p-6 border-t border-white/5">
+        {/* <div className="p-6 border-t border-white/5">
           <div className="bg-[#162a4a]/40 p-4 rounded-xl">
             <p className="text-[10px] text-gray-500 uppercase tracking-widest text-center">
               Admin Panel v1.0
             </p>
           </div>
-        </div>
+        </div> */}
       </aside>
     </>
   );

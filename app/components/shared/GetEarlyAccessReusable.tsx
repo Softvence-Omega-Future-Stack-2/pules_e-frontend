@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 interface GetEarlyAccessProps {
   title: string;
   description: string;
@@ -29,10 +32,14 @@ const GetEarlyAccessReusable = ({
         <p className="text-[#FFFFFFCC] text-xl font-lora md:text-2xl font-semibold leading-8 mb-8">
           {description}
         </p>
-
+        
+         <div>
+           <Link href="/waitlist">
         <button className="w-full font-lora md:w-auto px-10 py-4 rounded-lg font-bold text-white transition-all bg-gradient-to-b from-[#C9A96E] to-[#57431F] hover:brightness-110 active:scale-95 cursor-pointer">
           {buttonText}
         </button>
+        </Link>
+       </div>
       </div>
     </section>
   );
