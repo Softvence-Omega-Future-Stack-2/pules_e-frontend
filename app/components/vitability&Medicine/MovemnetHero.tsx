@@ -9,7 +9,7 @@ const MovementHero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/img/fightHeroImg.svg')` }}
+        style={{ backgroundImage: `url('/img/movmentHeroImg.svg')` }}
       >
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
       </div>
