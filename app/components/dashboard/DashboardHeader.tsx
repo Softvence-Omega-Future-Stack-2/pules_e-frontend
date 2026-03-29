@@ -18,6 +18,8 @@ interface Notification {
   type: "info" | "warning" | "success";
 }
 
+
+
 const initialNotifications: Notification[] = [
   {
     id: 1,
