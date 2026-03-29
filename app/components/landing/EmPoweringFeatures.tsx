@@ -12,54 +12,54 @@ interface FeatureCard {
 const features: FeatureCard[] = [
   {
     title: "Meet Numera: Your AI Coach",
-    description: "Your compassionate AI companion translates raw data into actionable, culturally aware insights. Numera doesn't just tell you to 'drink more water'—she understands your luteal phase fatigue and offers real support.",
+    description: "Your compassionate AI companion translates raw data into actionable, culturally aware insights.",
     image: '/img/feature1.svg'
   },
   {
     title: "Non-Scale Victories",
-    description: "Energy levels, mood stability, confidence boosts—these are the wins that matter. Track what truly reflects your wellness, not just weight.",
+    description: "Energy levels, mood stability, confidence boosts—these are the wins that matter.",
     image: '/img/feature2.svg'
   },
   {
     title: "Fight Sister Community",
-    description: "Join private circles for your life stage—fertility, perimenopause, pelvic floor recovery. Accountability matching and local resource finders included.",
+    description: "Join private circles for your life stage—fertility, perimenopause, pelvic floor recovery.",
     image: '/img/feature3.svg'
   },
   {
     title: "Mental Health Integration",
-    description: "Link mood crashes to cycle shifts. Tackle hormonal and mental health together with integrated tracking and support.",
+    description: "Link mood crashes to cycle shifts. Tackle hormonal and mental health together.",
     image: '/img/feature4.svg'
   },
-  {
-    title: "BBT Tracker",
-    description: "Track your basal body temperature to understand your cycle phases. Numera helps you see patterns and anticipate hormonal shifts before they happen.",
-    image: '/img/feature7.svg'
-  },
-  {
-    title: "Phase Challenges",
-    description: "Get phase-specific challenges that work WITH your cycle. Strength training in follicular, gentle movement in luteal—your body knows best.",
-    image: '/img/feature5.svg'
-  },
-  {
-    title: "Geo-Recommendations",
-    description: "Find cycle-friendly gyms, therapists, and wellness providers in your area. Real recommendations from real Fight Sisters.",
-    image: '/img/feature6.svg'
-  },
-  {
-    title: "Mobile-First Experience",
-    description: "Track on-the-go with our mobile app. BBT logging at bedside, quick win entries, and Numera conversations wherever you are.",
-    image: '/img/feature8.svg'
-  }
+  // {
+  //   title: "BBT Tracker",
+  //   description: "Track your basal body temperature to understand your cycle phases. Numera helps you see patterns and anticipate hormonal shifts before they happen.",
+  //   image: '/img/feature7.svg'
+  // },
+  // {
+  //   title: "Phase Challenges",
+  //   description: "Get phase-specific challenges that work WITH your cycle. Strength training in follicular, gentle movement in luteal—your body knows best.",
+  //   image: '/img/feature5.svg'
+  // },
+  // {
+  //   title: "Geo-Recommendations",
+  //   description: "Find cycle-friendly gyms, therapists, and wellness providers in your area. Real recommendations from real Fight Sisters.",
+  //   image: '/img/feature6.svg'
+  // },
+  // {
+  //   title: "Mobile-First Experience",
+  //   description: "Track on-the-go with our mobile app. BBT logging at bedside, quick win entries, and Numera conversations wherever you are.",
+  //   image: '/img/feature8.svg'
+  // }
 ];
 
 const EmpoweringFeatures: React.FC = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-[#FFFFFF] px-10 lg:px-30">
       <div>
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-[#001F3F] text-4xl md:text-5xl lg:text-[64px] font-lora font-bold mb-6">
-            Empowering Features
+          <h2 className="text-[#001F3F] text-4xl max-w-xl mx-auto md:text-5xl lg:text-[64px] leaidng-10 md:leading-24 font-lora font-bold mb-6">
+           Your Health Data, Finally Explained.
           </h2>
           <p className="text-[#6B7280] text-lg md:text-xl font-lora font-normal">
             Everything you need to take control of your health journey
