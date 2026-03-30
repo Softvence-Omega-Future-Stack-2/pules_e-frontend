@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
 Reclaim Your Body's Rhythm. 
         </p>
 
-        <p className=" text-xl md:text-2xl text-[#FFFFFFE5] font-normal px-10 md:px-20 leading-6 mb-8 opacity-90">
+        <p className=" text-xl md:text-2xl text-[#FFFFFFE5] font-normal px-10 md:px-20 leading-6 md:leading-9 mb-8 opacity-90">
         Tired of the scale, the cycle charts, and the metrics dictating your worth? Numera, your AI companion, fights back—with unwavering empathy, cycle-aware insights, and shame-free guidance that honors exactly where your energy stands today.
         </p>
 
