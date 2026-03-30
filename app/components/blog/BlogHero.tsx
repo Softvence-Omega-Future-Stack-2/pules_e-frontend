@@ -53,7 +53,7 @@ const BlogHero = () => {
               
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 aspect-video lg:aspect-square">
                 <img 
-                  src="img/blogHeroImg.svg" 
+                  src="/img/blogHeroImg.svg" 
                   alt="BBT Device Interface" 
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />

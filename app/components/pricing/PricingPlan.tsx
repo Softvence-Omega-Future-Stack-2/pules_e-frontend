@@ -26,7 +26,7 @@ const PricingPlans = () => {
     },
     {
       name: "Fight Sister",
-      price: isAnnual ? "79.99" : "9.99",
+      price: isAnnual ? "6.67" : "8.99",
       period: isAnnual ? "/yr" : "/mo",
       tagline: "Full access to all features and community",
       buttonText: "Get Started",
@@ -47,7 +47,7 @@ const PricingPlans = () => {
       name: "Sister for Life",
       price: "199.99",
       period: "one-time",
-      tagline: "One-time payment, lifetime support",
+      tagline: "One-time payment, lifetime support (limited to first 500)",
       buttonText: "Join for Life",
       features: [
         { text: "Everything in Fight Sister", included: true },
@@ -136,7 +136,7 @@ const PricingPlans = () => {
                   <span className="text-gray-400 font-medium">{plan.period}</span>
                 </div>
                 {plan.isFeatured && isAnnual && (
-                  <p className="text-[#c5a059] text-xs font-bold mt-2">$10.00/month billed annually</p>
+                  <p className="text-[#c5a059] text-xs font-bold mt-2">$6.67/mo billed annually (less than $0.22/day)</p>
                 )}
               </div>
               

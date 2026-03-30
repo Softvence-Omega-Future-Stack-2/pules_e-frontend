@@ -34,6 +34,13 @@ export default function RootLayout({
     <html lang="en">
     
       
+      {/* <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+      <NavbarFooterWrapper>
+          {children}
+        </NavbarFooterWrapper>
+      </body> */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

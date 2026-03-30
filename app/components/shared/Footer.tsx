@@ -5,19 +5,19 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   const footerLinks = {
     Product: [
-      { name: 'Features', path: '/features' },
-      { name: 'Pricing', path: '/pricing' },
-      { name: 'Fight Tool', path: '/fighttool' },
+      { name: 'Features', path: '/site/features' },
+      { name: 'Pricing', path: '/site/pricing' },
+      { name: 'Fight Tool', path: '/site/fighttool' },
     ],
     Company: [
-      { name: 'About', path: '/about' },
-      { name: 'Blog', path: '/blog' },
-      { name: 'Community', path: '/community' },
+      { name: 'About', path: '/site/about' },
+      { name: 'Blog', path: '/site/blog' },
+      { name: 'Community', path: '/site/community' },
     ],
     Support: [
-      { name: 'Help Center', path: '/support' },
-      { name: 'Privacy Policy', path: '/support' },
-      { name: 'Terms of Service', path: '/support' },
+      { name: 'Help Center', path: '/site/support' },
+      { name: 'Privacy Policy', path: '/site/support' },
+      { name: 'Terms of Service', path: '/site/support' },
     ],
   };
 

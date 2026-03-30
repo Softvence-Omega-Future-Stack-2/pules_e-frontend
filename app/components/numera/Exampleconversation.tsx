@@ -18,7 +18,15 @@ const ExampleConversations = () => {
     {
       title: "BBT Insights",
       content: "Learn how tracking your Basal Body Temperature (BBT) provides critical insights into your hormonal health beyond just ovulation."
-    }
+    },
+      {
+    title: "Fitness ",
+    content: "Explore targeted fitness routines and exercises that align with your hormonal cycles, helping improve energy, strength, and overall wellness throughout the month."
+  },
+  {
+    title: "Anti-Aging ",
+    content: "Discover lifestyle tips, nutrition advice, and self-care practices that support healthy aging, boost skin elasticity, and maintain vitality naturally."
+  }
   ];
 
   return (
