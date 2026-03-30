@@ -3,7 +3,10 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-const categories = ["All Posts", "Cycle Awareness", "Cycle Phases", "Body Neutrality", "Life Stages", "NSVs", "Community"];
+const categories = ["All Posts", "Cycle Awareness", "Cycle Phases", "Body Neutrality", "Life Stages", "NSVs", "Community", "Movement as Medicine",
+  "Vitality Rebellion",
+  "Perimenopause / Menopause",
+  "Trying to Conceive / Pregnancy" ];
 
 const posts = [
   {
@@ -128,7 +131,7 @@ const CategoriesFilter = () => {
             {filteredPosts.map((post, i) => (
               <Link
                 key={i}
-                href={`/blog/${post.slug}`}
+                href={`/site/blog/${post.slug}`}
                 className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-all duration-200 hover:-translate-y-1 cursor-pointer flex flex-col"
               >
                 {/* Real Image */}
