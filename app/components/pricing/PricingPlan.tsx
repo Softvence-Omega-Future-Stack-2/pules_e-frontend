@@ -103,7 +103,7 @@ const PricingPlans = () => {
           isAnnual ? "opacity-80" : "opacity-60"
         }`}
       >
-        (Save 30%)
+        (Save 25%)
       </span>
     </button>
 

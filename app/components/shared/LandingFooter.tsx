@@ -47,7 +47,7 @@ const LandingFooter: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/watlist" className="hover:text-amber-400 cursor-pointer transition-colors font-semibold">
+                <Link href="/waitlist" className="hover:text-amber-400 cursor-pointer transition-colors font-semibold">
                   Join Waitlist
                 </Link>
               </li>
@@ -75,9 +75,16 @@ const LandingFooter: React.FC = () => {
             © 2026 Fight the Number. All rights reserved.
           </p>
           <div className="flex justify-center gap-6 text-base font-lora font-medium ">
-            <span className="cursor-pointer text-[#EDE4D9] hover:text-amber-400">Privacy Policy</span>
+              <Link href="/site/support" className="hover:text-amber-400 cursor-pointer transition-colors font-semibold">
+                 Privacy Policy
+
+                </Link>
             <span className="text-gray-700">|</span>
-            <span className="cursor-pointer text-[#EDE4D9] hover:text-amber-400">Terms of Use</span>
+               <Link href="/site/support" className="hover:text-amber-400 cursor-pointer transition-colors font-semibold">
+                Terms of Use
+
+                </Link>
+         
           </div>
         </div>
 
