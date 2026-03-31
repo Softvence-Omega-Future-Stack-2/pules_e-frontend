@@ -9,7 +9,7 @@ export default function TrackVitalitySection() {
     <section className="bg-white px-6 sm:px-10 py-16 sm:py-20 font-serif">
       <div className="max-w-4xl mx-auto">
         {/* Heading */}
-        <h2 className="text-[#0a192f] text-4xl md:text-5xl  font-bold  leading-6 md:leading-18 mb-6">
+        <h2 className="text-[#0a192f] text-4xl md:text-5xl  font-bold  leading-9 md:leading-18 mb-6">
           Track Vitality Wins in the App
         </h2>
 

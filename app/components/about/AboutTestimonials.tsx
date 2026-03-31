@@ -25,7 +25,7 @@ const AboutTestimonials = () => {
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold  text-white leading-6 md:leading-12 font-lora text-center mb-6 ">
+          <h2 className="text-4xl md:text-5xl font-bold  text-white leading-9 md:leading-12 font-lora text-center mb-6 ">
             What Fight Sisters Are Saying
           </h2>
         </div>

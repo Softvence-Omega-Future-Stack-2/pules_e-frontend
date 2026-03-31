@@ -27,7 +27,7 @@ const BBTTrackingSection = () => {
     <section className="py-24 bg-[#f8f3ed] px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Title & Subtext */}
-        <h2 className="text-[#0a192f] text-4xl md:text-5xl  font-bold  leading-6 md:leading-18 mb-6">
+        <h2 className="text-[#0a192f] text-4xl md:text-5xl  font-bold  leading-9 md:leading-18 mb-6">
           How BBT Tracking Fights Aging Hormone Shifts
         </h2>
         <p className="text-[#6B7280] text-lg md:text-xl max-w-3xl mx-auto mb-16 italic">

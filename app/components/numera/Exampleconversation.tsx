@@ -35,7 +35,7 @@ const ExampleConversations = () => {
         
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-6xl font-lora font-bold leading-6 md:leading-[4rem] mb-4">
+          <h2 className="text-4xl md:text-6xl font-lora font-bold leading-9 md:leading-[4rem] mb-4">
             Example Conversations
           </h2>
         </div>

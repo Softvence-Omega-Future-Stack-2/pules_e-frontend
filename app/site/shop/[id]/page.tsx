@@ -117,7 +117,7 @@ export default function ProductDetailPage({ params }: Props) {
         </div>
 
         {/* Related Products */}
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <h2 className="text-xl font-bold text-gray-900 mb-6">You might also like</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {products.filter((p) => p.id !== product!.id).slice(0, 3).map((related) => (
@@ -132,7 +132,7 @@ export default function ProductDetailPage({ params }: Props) {
               </Link>
             ))}
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );
