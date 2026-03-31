@@ -14,10 +14,10 @@ const MovemetnMedicine = () => {
           
           <div className="space-y-6 text-[#6B7280] text-base md:text-lg leading-relaxed">
             <p>
-             The Vitality Rebellion is our answer to anti-aging culture that obsesses over appearances. We focus on functional vitality—the energy, recovery, hormonal balance, and strength that actually matter for living a vibrant life.
+             Movement as Medicine is our answer to fitness culture that obsesses over calories burned, weight lost, and "no pain, no gain." We focus on empowered movement—strength, mobility, joy, and recovery that honor your cycle and defy aging stereotypes.
             </p>
             <p>
-              Whether you're fighting perimenopause fatigue at 40, slower recovery at 35, or energy dips during luteal phases, we validate your battle and give you tools to win—without vanity metrics or shame.
+            Whether you're fighting fitness plateaus at 38, rebuilding strength postpartum, or honoring luteal fatigue, we validate your battle and give you tools to win—with phase-specific workouts, NSV tracking, and Numera's compassionate coaching.
             </p>
           </div>
 

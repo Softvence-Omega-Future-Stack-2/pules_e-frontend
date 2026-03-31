@@ -18,7 +18,7 @@ const LoginPage = () => {
 
       {/* Main Login Header */}
       <div className="text-center mb-10">
-        <h1 className="text-2xl md:text-3xl font-bold leading-8 mb-3 text-primaryColor">Welcome Back</h1>
+        <h1 className="text-2xl md:text-3xl font-bold leading-8 mb-3 text-primaryColor">Welcome </h1>
         <p className="text-[#6B7280] text-sm font-normal leading-5">Sign in to access your admin dashboard</p>
       </div>
 

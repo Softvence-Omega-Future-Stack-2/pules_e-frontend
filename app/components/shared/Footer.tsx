@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 text-center">
-          <p className="text-[#FFFFFF80] text-sm font-normal leading-5 tracking-widest uppercase">
+          <p className="text-[#FFFFFF80] text-sm font-normal leading-5 tracking-widest ">
             © 2026 Fight the Number. All rights reserved. Numbers measure women. Understanding empowers them.
           </p>
         </div>

@@ -10,7 +10,7 @@ export default function NavbarFooterWrapper({ children }: { children: React.Reac
 
   const isLandingPage = pathname === "/";
   const isDashboard = pathname.startsWith("/dashboard"); 
-
+const isShopDetail = pathname.startsWith("/site/shop/");
 
   if (isDashboard) {
     return <>{children}</>;
@@ -32,7 +32,7 @@ export default function NavbarFooterWrapper({ children }: { children: React.Reac
     <>
       <Navbar />
       {children}
-      <Footer />
+      <LandingFooter />
     </>
   );
 }
