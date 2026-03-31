@@ -211,7 +211,7 @@ const Navbar: React.FC = () => {
                       onClick={() => setMobileFeatureOpen((prev) => !prev)}
                     >
                       <span className={`text-lg ${
-                        // ✅ Mobile তেও children check
+                        //  Mobile তেও children check
                         item.children.some(child => pathname === child.href)
                           ? 'text-amber-400 underline underline-offset-4 decoration-2'
                           : pathname === item.href || pathname.startsWith(item.href + '/')
@@ -264,6 +264,12 @@ const Navbar: React.FC = () => {
             ))}
 
             <li>
+                <Link href="/site/cart">
+          <button className='cursor-pointer mb-2'>
+    
+<CartIcon/>
+          </button>
+          </Link>
               <Link href="/waitlist">
                 <button className="w-full font-lora bg-gradient-to-b from-[#C9A96E] to-[#57431F] py-4 rounded-md font-bold">
                   Join the Waitlist

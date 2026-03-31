@@ -10,7 +10,7 @@ const WhatMakesUsDifferent = () => {
         
         {/* Header Section */}
         <div className="text-center mb-16 space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold  text-primaryColor leading-6 md:leading-12 font-lora text-center mb-6 ">
+          <h1 className="text-4xl md:text-5xl font-bold  text-primaryColor leading-9 md:leading-12 font-lora text-center mb-6 ">
             What Makes Us Different
           </h1>
           <p className="text-[#6B7280] text-lg md:text-xl leading-7 font-normal ">

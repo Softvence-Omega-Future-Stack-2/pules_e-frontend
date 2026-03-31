@@ -38,7 +38,7 @@ const RecentWins = () => {
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold  text-primaryColor leading-6 md:leading-12 font-lora text-center mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold  text-primaryColor leading-9 md:leading-12 font-lora text-center mb-6">
             Recent Wins from the Arena
           </h2>
           <p className="text-[#6B7280] text-xl font-lora md:text-2xl font-normal leading-relaxed">

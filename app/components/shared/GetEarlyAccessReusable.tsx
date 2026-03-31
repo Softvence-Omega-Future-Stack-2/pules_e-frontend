@@ -25,7 +25,7 @@ const GetEarlyAccessReusable = ({
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl w-full text-center text-white">
-        <h2 className="text-4xl md:text-6xl font-lora font-bold leading-6 md:leading-[4rem] mb-4">
+        <h2 className="text-4xl md:text-6xl font-lora font-bold leading-9 md:leading-[4rem] mb-4">
           {title}
         </h2>
 
