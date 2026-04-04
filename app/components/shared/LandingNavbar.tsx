@@ -9,7 +9,7 @@ const LandingNavbar: React.FC = () => {
 
 
   return (
-    <nav className="bg-[#001F3FF2] sticky top-0 z-50 text-white px-6 md:px-18 py-2 relative">
+    <nav className="bg-[#001F3FF2] sticky top-0 z-50 text-white px-6 md:px-28 py- relative">
       <div className="flex items-center justify-between">
 
         {/* Logo Section */}
@@ -24,14 +24,14 @@ const LandingNavbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-3">
           {/* Explore the Full Site Button */}
       <a href="/site">
-  <button className="bg-gradient-to-b from-[#8a6d3b] to-[#c5a059] px-5 py-4 rounded-md text-sm font-semibold text-white shadow-lg hover:brightness-110 transition-all cursor-pointer">
+  <button className="bg-gradient-to-b from-[#8a6d3b] to-[#c5a059] px-4 py-2.5 rounded-md text-sm font-semibold text-white shadow-lg hover:brightness-110 transition-all cursor-pointer">
     Explore the Full Site
   </button>
 </a>
 
           {/* Join the Waitlist Button */}
           <Link href="/waitlist">
-          <button className="bg-gradient-to-b from-[#C9A96E] to-[#57431F] px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+          <button className="bg-gradient-to-b from-[#C9A96E] to-[#57431F] px-4 py-2.5 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
             Join the Waitlist
           </button>
         </Link>
