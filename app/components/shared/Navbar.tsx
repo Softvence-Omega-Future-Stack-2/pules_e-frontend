@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-[#001F3FF2] sticky top-0 z-50 text-white px-6 xl:px-18 py-2 relative">
+    <nav className="bg-[#001F3FF2] sticky top-0 z-50 text-white px-6 xl:px-18  relative">
       <div className="flex items-center justify-between">
 
         {/* Logo */}
@@ -179,12 +179,12 @@ const Navbar: React.FC = () => {
           </button>
           </Link>
           <Link href="/waitlist">
-            <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-2 xl:px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+            <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-2 xl:px-8 py-3 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
               Join the Waitlist
             </button>
           </Link>
           <Link href="/site/login">
-            <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-2 xl:px-8 py-4 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
+            <button className="bg-gradient-to-b font-lora from-[#C9A96E] to-[#57431F] px-2 xl:px-8 py-3 rounded-md text-sm font-bold shadow-lg hover:brightness-110 cursor-pointer transition-all">
               Login
             </button>
           </Link>
