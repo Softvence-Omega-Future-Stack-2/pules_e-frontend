@@ -34,6 +34,7 @@ export default function ProductDetailPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-[#FAF8F5]">
+      
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-10">
         {/* Back link */}
         <Link
